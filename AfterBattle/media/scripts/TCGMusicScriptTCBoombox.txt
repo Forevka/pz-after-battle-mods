@@ -10,27 +10,27 @@ module Tsarcraft
 	{
 		Type			=	Normal,
 		Weight			=	0.2,
-		Icon			=	TCTape3,
+		Icon			=	TCTape11,
 		DisplayName		=	Cassette Grazhdanskaya Oborona - Gosudarstvo,
-		WorldStaticModel = Tsarcraft.TCTape3,
+		WorldStaticModel = Tsarcraft.TCTape11,
 	}
 
 	item CassetteGrazhdanskayaoboronaMoyaoborona
 	{
 		Type			=	Normal,
 		Weight			=	0.2,
-		Icon			=	TCTape2,
+		Icon			=	TCTape10,
 		DisplayName		=	Cassette Grazhdanskaya oborona - Moya oborona,
-		WorldStaticModel = Tsarcraft.TCTape2,
+		WorldStaticModel = Tsarcraft.TCTape10,
 	}
 
 	item CassetteGrazhdanskayaOboronaSistema
 	{
 		Type			=	Normal,
 		Weight			=	0.2,
-		Icon			=	TCTape5,
+		Icon			=	TCTape2,
 		DisplayName		=	Cassette Grazhdanskaya Oborona - Sistema,
-		WorldStaticModel = Tsarcraft.TCTape5,
+		WorldStaticModel = Tsarcraft.TCTape2,
 	}
 
 }
