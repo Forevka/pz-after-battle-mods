@@ -1,0 +1,36 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	item CassetteGrazhdanskayaOboronaGosudarstvo
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Grazhdanskaya Oborona - Gosudarstvo,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteGrazhdanskayaoboronaMoyaoborona
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Grazhdanskaya oborona - Moya oborona,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteGrazhdanskayaOboronaSistema
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Grazhdanskaya Oborona - Sistema,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+}

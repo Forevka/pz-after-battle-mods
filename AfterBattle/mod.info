@@ -1,0 +1,5 @@
+name=AfterBattle
+poster=poster.png
+id=AfterBattle
+require=truemusic
+description=AfterBattle

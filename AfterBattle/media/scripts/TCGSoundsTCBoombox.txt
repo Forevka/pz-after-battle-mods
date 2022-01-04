@@ -1,0 +1,33 @@
+module Tsarcraft
+{
+	sound CassetteGrazhdanskayaOboronaGosudarstvo
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Grazhdanskaya Oborona - Gosudarstvo.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGrazhdanskayaoboronaMoyaoborona
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Grazhdanskaya oborona - Moya oborona.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGrazhdanskayaOboronaSistema
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Grazhdanskaya Oborona - Sistema.ogg,
+			distanceMax = 75,
+		}
+	}
+}
