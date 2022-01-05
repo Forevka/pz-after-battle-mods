@@ -10,6 +10,16 @@ module Tsarcraft
 			distanceMax = 75,
 		}
 	}
+	sound Cassette01Posledniygeroy
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/01 - Posledniy geroy.ogg,
+			distanceMax = 75,
+		}
+	}
 	sound Cassette01SanctifiedwithDynamite(featRalfScheepers)
 	{
 		category = True Music,
@@ -27,16 +37,6 @@ module Tsarcraft
 		clip
 		{
 			file = media/yourMusic/TCBoombox/01 - Vremya esta deneg net.ogg,
-			distanceMax = 75,
-		}
-	}
-	sound Cassette01Posledniygeroy
-	{
-		category = True Music,
-		master = Ambient,
-		clip
-		{
-			file = media/yourMusic/TCBoombox/01 - Posledniy geroy.ogg,
 			distanceMax = 75,
 		}
 	}
@@ -80,26 +80,6 @@ module Tsarcraft
 			distanceMax = 75,
 		}
 	}
-	sound Cassette03DancingwiththeDead
-	{
-		category = True Music,
-		master = Ambient,
-		clip
-		{
-			file = media/yourMusic/TCBoombox/03 - Dancing with the Dead.ogg,
-			distanceMax = 75,
-		}
-	}
-	sound Cassette03NightsideofSiberia(featJohanHegg)
-	{
-		category = True Music,
-		master = Ambient,
-		clip
-		{
-			file = media/yourMusic/TCBoombox/03 - Nightside of Siberia (feat. Johan Hegg).ogg,
-			distanceMax = 75,
-		}
-	}
 	sound Cassette03Allyuminievyeogurtsy
 	{
 		category = True Music,
@@ -110,23 +90,13 @@ module Tsarcraft
 			distanceMax = 75,
 		}
 	}
-	sound Cassette03NamSToboy
+	sound Cassette03DancingwiththeDead
 	{
 		category = True Music,
 		master = Ambient,
 		clip
 		{
-			file = media/yourMusic/TCBoombox/03 - Nam S Toboy.ogg,
-			distanceMax = 75,
-		}
-	}
-	sound Cassette03Trankvilizator
-	{
-		category = True Music,
-		master = Ambient,
-		clip
-		{
-			file = media/yourMusic/TCBoombox/03 - Trankvilizator.ogg,
+			file = media/yourMusic/TCBoombox/03 - Dancing with the Dead.ogg,
 			distanceMax = 75,
 		}
 	}
@@ -140,6 +110,36 @@ module Tsarcraft
 			distanceMax = 75,
 		}
 	}
+	sound Cassette03NamSToboy
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/03 - Nam S Toboy.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Cassette03NightsideofSiberia(featJohanHegg)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/03 - Nightside of Siberia (feat. Johan Hegg).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Cassette03Trankvilizator
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/03 - Trankvilizator.ogg,
+			distanceMax = 75,
+		}
+	}
 	sound Cassette03BackInBlack
 	{
 		category = True Music,
@@ -147,6 +147,16 @@ module Tsarcraft
 		clip
 		{
 			file = media/yourMusic/TCBoombox/03. Back In Black.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Cassette04Skazka
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/04 - Skazka.ogg,
 			distanceMax = 75,
 		}
 	}
@@ -177,16 +187,6 @@ module Tsarcraft
 		clip
 		{
 			file = media/yourMusic/TCBoombox/04 - Zvezda.ogg,
-			distanceMax = 75,
-		}
-	}
-	sound Cassette04Skazka
-	{
-		category = True Music,
-		master = Ambient,
-		clip
-		{
-			file = media/yourMusic/TCBoombox/04 - Skazka.ogg,
 			distanceMax = 75,
 		}
 	}
@@ -320,16 +320,6 @@ module Tsarcraft
 			distanceMax = 75,
 		}
 	}
-	sound Cassette07VNashihGlazah
-	{
-		category = True Music,
-		master = Ambient,
-		clip
-		{
-			file = media/yourMusic/TCBoombox/07 - V Nashih Glazah.ogg,
-			distanceMax = 75,
-		}
-	}
 	sound Cassette07Poprobuyspetvmestesomnoy
 	{
 		category = True Music,
@@ -337,6 +327,16 @@ module Tsarcraft
 		clip
 		{
 			file = media/yourMusic/TCBoombox/07 - Poprobuy spet vmeste so mnoy.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Cassette07VNashihGlazah
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/07 - V Nashih Glazah.ogg,
 			distanceMax = 75,
 		}
 	}
@@ -360,13 +360,13 @@ module Tsarcraft
 			distanceMax = 75,
 		}
 	}
-	sound Cassette08WeDrinkYourBlood(featJohannesEckerstrom)
+	sound Cassette08MamaAnarhiya
 	{
 		category = True Music,
 		master = Ambient,
 		clip
 		{
-			file = media/yourMusic/TCBoombox/08 - We Drink Your Blood (feat. Johannes Eckerstrom).ogg,
+			file = media/yourMusic/TCBoombox/08 - Mama Anarhiya.ogg,
 			distanceMax = 75,
 		}
 	}
@@ -380,13 +380,13 @@ module Tsarcraft
 			distanceMax = 75,
 		}
 	}
-	sound Cassette08MamaAnarhiya
+	sound Cassette08WeDrinkYourBlood(featJohannesEckerstrom)
 	{
 		category = True Music,
 		master = Ambient,
 		clip
 		{
-			file = media/yourMusic/TCBoombox/08 - Mama Anarhiya.ogg,
+			file = media/yourMusic/TCBoombox/08 - We Drink Your Blood (feat. Johannes Eckerstrom).ogg,
 			distanceMax = 75,
 		}
 	}
@@ -397,26 +397,6 @@ module Tsarcraft
 		clip
 		{
 			file = media/yourMusic/TCBoombox/08. Can't Stop Rock 'N' Roll.ogg,
-			distanceMax = 75,
-		}
-	}
-	sound Cassette09ResurrectionbyErection(featChristopherBowes)
-	{
-		category = True Music,
-		master = Ambient,
-		clip
-		{
-			file = media/yourMusic/TCBoombox/09 - Resurrection by Erection (feat. Christopher Bowes).ogg,
-			distanceMax = 75,
-		}
-	}
-	sound Cassette09SermonofSwords
-	{
-		category = True Music,
-		master = Ambient,
-		clip
-		{
-			file = media/yourMusic/TCBoombox/09 - Sermon of Swords.ogg,
 			distanceMax = 75,
 		}
 	}
@@ -437,6 +417,26 @@ module Tsarcraft
 		clip
 		{
 			file = media/yourMusic/TCBoombox/09 - Moi druzya.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Cassette09ResurrectionbyErection(featChristopherBowes)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/09 - Resurrection by Erection (feat. Christopher Bowes).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Cassette09SermonofSwords
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/09 - Sermon of Swords.ogg,
 			distanceMax = 75,
 		}
 	}
@@ -480,16 +480,6 @@ module Tsarcraft
 			distanceMax = 75,
 		}
 	}
-	sound Cassette11ReverentofRats
-	{
-		category = True Music,
-		master = Ambient,
-		clip
-		{
-			file = media/yourMusic/TCBoombox/11 - Reverent of Rats.ogg,
-			distanceMax = 75,
-		}
-	}
 	sound Cassette11Bi2Kukushka
 	{
 		category = True Music,
@@ -497,6 +487,16 @@ module Tsarcraft
 		clip
 		{
 			file = media/yourMusic/TCBoombox/11 - Bi-2 - Kukushka.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Cassette11ReverentofRats
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/11 - Reverent of Rats.ogg,
 			distanceMax = 75,
 		}
 	}
@@ -510,16 +510,6 @@ module Tsarcraft
 			distanceMax = 75,
 		}
 	}
-	sound Cassette12Spokoynayanoch
-	{
-		category = True Music,
-		master = Ambient,
-		clip
-		{
-			file = media/yourMusic/TCBoombox/12 - Spokoynaya noch.ogg,
-			distanceMax = 75,
-		}
-	}
 	sound Cassette12HochuPeremen(Remix)
 	{
 		category = True Music,
@@ -527,6 +517,16 @@ module Tsarcraft
 		clip
 		{
 			file = media/yourMusic/TCBoombox/12 - Hochu Peremen (Remix).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Cassette12Spokoynayanoch
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/12 - Spokoynaya noch.ogg,
 			distanceMax = 75,
 		}
 	}
@@ -897,6 +897,16 @@ module Tsarcraft
 		clip
 		{
 			file = media/yourMusic/TCBoombox/52. Kicked In The Teeth.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteJohnDenverBillDanoffTaffyDanoffTakeMeHomeCountryRoads
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/John Denver Bill Danoff Taffy Danoff - Take Me Home Country Roads.ogg,
 			distanceMax = 75,
 		}
 	}
