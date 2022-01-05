@@ -1,0 +1,243 @@
+module Tsarcraft
+{
+	sound Vinyl01Key
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/01 - Key.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl02Door
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/02 - Door.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl03SubwooferLullaby
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/03 - Subwoofer Lullaby.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl04Death
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/04 - Death.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl05LivingMice
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/05 - Living Mice.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl06MoogCity
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/06 - Moog City.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl07Haggstrom
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/07 - Haggstrom.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl08Minecraft
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/08 - Minecraft.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl09Oxygene
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/09 - Oxygene.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl10Equinoxe
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/10 - Equinoxe.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl11MiceonVenus
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/11 - Mice on Venus.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl12DryHands
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/12 - Dry Hands.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl13WetHands
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/13 - Wet Hands.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl14Clark
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/14 - Clark.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl15Chris
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/15 - Chris.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl16Thirteen
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/16 - Thirteen.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl17Excuse
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/17 - Excuse.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl18Sweden
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/18 - Sweden.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl19Cat
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/19 - Cat.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl20Dog
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/20 - Dog.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl21Danny
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/21 - Danny.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl22Beginning
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/22 - Beginning.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl23DroopyLikesRicochet
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/23 - Droopy Likes Ricochet.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Vinyl24DroopyLikesYourFace
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/24 - Droopy Likes Your Face.ogg,
+			distanceMax = 75,
+		}
+	}
+}

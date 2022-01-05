@@ -1,0 +1,225 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	item Vinyl01Key
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl 01 - Key,
+		WorldStaticModel = Tsarcraft.TCVinylrecord6,
+	}
+
+	item Vinyl02Door
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord8,
+		DisplayName		=	Vinyl 02 - Door,
+		WorldStaticModel = Tsarcraft.TCVinylrecord8,
+	}
+
+	item Vinyl03SubwooferLullaby
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl 03 - Subwoofer Lullaby,
+		WorldStaticModel = Tsarcraft.TCVinylrecord1,
+	}
+
+	item Vinyl04Death
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl 04 - Death,
+		WorldStaticModel = Tsarcraft.TCVinylrecord3,
+	}
+
+	item Vinyl05LivingMice
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl 05 - Living Mice,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item Vinyl06MoogCity
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl 06 - Moog City,
+		WorldStaticModel = Tsarcraft.TCVinylrecord7,
+	}
+
+	item Vinyl07Haggstrom
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl 07 - Haggstrom,
+		WorldStaticModel = Tsarcraft.TCVinylrecord6,
+	}
+
+	item Vinyl08Minecraft
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl 08 - Minecraft,
+		WorldStaticModel = Tsarcraft.TCVinylrecord11,
+	}
+
+	item Vinyl09Oxygene
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl 09 - Oxygene,
+		WorldStaticModel = Tsarcraft.TCVinylrecord1,
+	}
+
+	item Vinyl10Equinoxe
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl 10 - Equinoxe,
+		WorldStaticModel = Tsarcraft.TCVinylrecord2,
+	}
+
+	item Vinyl11MiceonVenus
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl 11 - Mice on Venus,
+		WorldStaticModel = Tsarcraft.TCVinylrecord11,
+	}
+
+	item Vinyl12DryHands
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl 12 - Dry Hands,
+		WorldStaticModel = Tsarcraft.TCVinylrecord7,
+	}
+
+	item Vinyl13WetHands
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl 13 - Wet Hands,
+		WorldStaticModel = Tsarcraft.TCVinylrecord2,
+	}
+
+	item Vinyl14Clark
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord8,
+		DisplayName		=	Vinyl 14 - Clark,
+		WorldStaticModel = Tsarcraft.TCVinylrecord8,
+	}
+
+	item Vinyl15Chris
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl 15 - Chris,
+		WorldStaticModel = Tsarcraft.TCVinylrecord4,
+	}
+
+	item Vinyl16Thirteen
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl 16 - Thirteen,
+		WorldStaticModel = Tsarcraft.TCVinylrecord1,
+	}
+
+	item Vinyl17Excuse
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl 17 - Excuse,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item Vinyl18Sweden
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl 18 - Sweden,
+		WorldStaticModel = Tsarcraft.TCVinylrecord11,
+	}
+
+	item Vinyl19Cat
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl 19 - Cat,
+		WorldStaticModel = Tsarcraft.TCVinylrecord11,
+	}
+
+	item Vinyl20Dog
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl 20 - Dog,
+		WorldStaticModel = Tsarcraft.TCVinylrecord2,
+	}
+
+	item Vinyl21Danny
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl 21 - Danny,
+		WorldStaticModel = Tsarcraft.TCVinylrecord3,
+	}
+
+	item Vinyl22Beginning
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl 22 - Beginning,
+		WorldStaticModel = Tsarcraft.TCVinylrecord2,
+	}
+
+	item Vinyl23DroopyLikesRicochet
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl 23 - Droopy Likes Ricochet,
+		WorldStaticModel = Tsarcraft.TCVinylrecord6,
+	}
+
+	item Vinyl24DroopyLikesYourFace
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl 24 - Droopy Likes Your Face,
+		WorldStaticModel = Tsarcraft.TCVinylrecord2,
+	}
+
+}

@@ -1,0 +1,819 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	item Cassette01FasterThantheFlame
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette 01 - Faster Than the Flame,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item Cassette01SanctifiedwithDynamite(featRalfScheepers)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette 01 - Sanctified with Dynamite (feat. Ralf Scheepers),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item Cassette01Vremyaestadenegnet
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 01 - Vremya esta deneg net,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette01Posledniygeroy
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette 01 - Posledniy geroy,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item Cassette01SchoolDays
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 01. School Days,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette02BeastofGevaudan
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette 02 - Beast of Gevaudan,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item Cassette02DemonsAreaGirl'sBestFriend(featAlissaWhiteGluz)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 02 - Demons Are a Girl's Best Friend (feat. Alissa White-Gluz),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette02It'sALongWayToTheTop(IfYouWannaRock'n'Roll)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette 02. It's A Long Way To The Top (If You Wanna Rock'n'Roll),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item Cassette03DancingwiththeDead
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette 03 - Dancing with the Dead,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item Cassette03NightsideofSiberia(featJohanHegg)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 03 - Nightside of Siberia (feat. Johan Hegg),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette03Allyuminievyeogurtsy
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette 03 - Allyuminievye ogurtsy,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item Cassette03NamSToboy
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 03 - Nam S Toboy,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette03Trankvilizator
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 03 - Trankvilizator,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette03Hochuperemen
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 03 - Hochu peremen,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette03BackInBlack
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette 03. Back In Black,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item Cassette04Varcolac
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 04 - Varcolac,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette04WheretheWildWolvesHaveGone(featDoroPesch)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette 04 - Where the Wild Wolves Have Gone (feat. Doro Pesch),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette04Zvezda
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 04 - Zvezda,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette04Skazka
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette 04 - Skazka,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette04BigBalls
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 04. Big Balls,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette05AliveorUndead
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 05 - Alive or Undead,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette05FistbyFist(SacralizeorStrike)(featMatthewKiichiHeafy)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette 05 - Fist by Fist (Sacralize or Strike) (feat. Matthew Kiichi Heafy),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item Cassette05MamaMyVseSoshliSUma
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette 05 - Mama My Vse Soshli S Uma,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item Cassette05Solnechnyedni
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette 05 - Solnechnye dni,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item Cassette05She'sGotBalls
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette 05. She's Got Balls,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette06BloodforBlood(Faoladh)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette 06 - Blood for Blood (Faoladh),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item Cassette06KillerswiththeCross(featBjornStrid)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette 06 - Killers with the Cross (feat. Bjorn Strid),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item Cassette06KogdaTvoyaDevushkaBolna
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 06 - Kogda Tvoya Devushka Bolna,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette06Spokoynayanoch
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette 06 - Spokoynaya noch,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item Cassette06Jailbreak
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette 06. Jailbreak,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item Cassette07Glaubenskraft
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette 07 - Glaubenskraft,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item Cassette07KissoftheCobraKing(featChrisHarms)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette 07 - Kiss of the Cobra King (feat. Chris Harms),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette07VNashihGlazah
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette 07 - V Nashih Glazah,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item Cassette07Poprobuyspetvmestesomnoy
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette 07 - Poprobuy spet vmeste so mnoy,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item Cassette07Rock'n'RollDamnation
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette 07. Rock'n'Roll Damnation,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item Cassette08CalloftheWild
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 08 - Call of the Wild,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette08WeDrinkYourBlood(featJohannesEckerstrom)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette 08 - We Drink Your Blood (feat. Johannes Eckerstrom),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item Cassette08Vosmiklassnitsa
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette 08 - Vosmiklassnitsa,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item Cassette08MamaAnarhiya
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette 08 - Mama Anarhiya,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item Cassette08Can'tStopRock'N'Roll
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 08. Can't Stop Rock 'N' Roll,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette09ResurrectionbyErection(featChristopherBowes)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette 09 - Resurrection by Erection (feat. Christopher Bowes),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item Cassette09SermonofSwords
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette 09 - Sermon of Swords,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette09Aprel
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 09 - Aprel,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette09Moidruzya
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette 09 - Moi druzya,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette09Rock'n'RollSinger
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette 09. Rock'n'Roll Singer,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item Cassette10SaturdaySatan(featJariMaenpaa)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette 10 - Saturday Satan (feat. Jari Maenpaa),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette10UndresstoConfess
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette 10 - Undress to Confess,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item Cassette10AreYouReady
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette 10. Are You Ready,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item Cassette11ReverentofRats
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette 11 - Reverent of Rats,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item Cassette11Bi2Kukushka
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette 11 - Bi-2 - Kukushka,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item Cassette11HighVoltage
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette 11. High Voltage,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette12Spokoynayanoch
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette 12 - Spokoynaya noch,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item Cassette12HochuPeremen(Remix)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette 12 - Hochu Peremen (Remix),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item Cassette13Zakroyzamnoydveryauhozhu(Bonus)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette 13 - Zakroy za mnoy dver ya uhozhu (Bonus),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item Cassette13StandUp
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette 13. Stand Up,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item Cassette14Dalshedeystvovatbudemmy(Bonus)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette 14 - Dalshe deystvovat budem my (Bonus),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item Cassette14LiveWire
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 14. Live Wire,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette15GiveItUp
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 15. Give It Up,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette16Thunderstruck
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette 16. Thunderstruck,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item Cassette17RIP(RockInPeace)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette 17. R.I.P. (Rock In Peace),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item Cassette18WholeLottaRosie
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette 18. Whole Lotta Rosie,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item Cassette19Heatseeker
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette 19. Heatseeker,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item Cassette20LetThereBeRock
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette 20. Let There Be Rock,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette21Ballbreaker
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette 21. Ballbreaker,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item Cassette22Vosmiklassnitsa
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 22 - Vosmiklassnitsa,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette22BackinBlackBonScott
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 22. Back in Black Bon Scott,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette23Rocker
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette 23. Rocker,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item Cassette24ShotDownInFlames
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette 24. Shot Down In Flames,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item Cassette25There'sGonnaBeSomeRockin'
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette 25. There's Gonna Be Some Rockin',
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item Cassette32HellsBells
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 32. Hells Bells,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette33DogEatDog
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette 33. Dog Eat Dog,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item Cassette34Moneytalks
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette 34. Moneytalks,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item Cassette35SinCity
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 35. Sin City,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette36BigGun
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 36. Big Gun,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item Cassette37Let'sGetItUp
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette 37. Let's Get It Up,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item Cassette38BabyPleaseDon'tGo
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette 38. Baby Please Don't Go,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette39GoDown
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 39. Go Down,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette40TheJack
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette 40. The Jack,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item Cassette41FireYourGuns
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 41. Fire Your Guns,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette42WhoMadeWho
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette 42. Who Made Who,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item Cassette43RideOn
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette 43. Ride On,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item Cassette44WhatDoYouDoForMoneyHoney
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette 44. What Do You Do For Money Honey,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item Cassette45DirtyDeedsDoneDirtCheap
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette 45. Dirty Deeds Done Dirt Cheap,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item Cassette46TNT
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette 46. T.N.T.,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item Cassette47TouchTooMuch
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette 47. Touch Too Much,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item Cassette48ForThoseAboutToRock(WeSaluteYou)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette 48. For Those About To Rock (We Salute You),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item Cassette49HighwayToHell
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette 49. Highway To Hell,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item Cassette50HardAsARock
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette 50. Hard As A Rock,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item Cassette51GetItHot
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette 51. Get It Hot,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item Cassette52KickedInTheTeeth
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette 52. Kicked In The Teeth,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+}
