@@ -24,9 +24,8 @@ jobs:
           echo '::echo::on'
           echo '::set-output name=action_echo::enabled'
 
-      - name : container ls $GITHUB_EVENT_PATH
-        with : { entrypoint : "/bin/sh" , args : '-c "ls -la $GITHUB_EVENT_PATH"' }
-        uses : "docker://alpine:latest"
+      - name: list
+        run: tree
 
       - name: Remove File audioConverter
         uses: JesseTG/rm@v1.0.2
@@ -39,9 +38,8 @@ jobs:
         with:
           path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/pictureConverter/convert.exe
 
-      - name : container ls $GITHUB_EVENT_PATH
-        with : { entrypoint : "/bin/sh" , args : '-c "ls -la $GITHUB_EVENT_PATH"' }
-        uses : "docker://alpine:latest"
+      - name: list
+        run: tree
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
