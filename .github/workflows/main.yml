@@ -22,12 +22,12 @@ jobs:
       - name: Remove File audioConverter
         uses: JesseTG/rm@v1.0.2
         with:
-          path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/audioConverter
+          path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/audioConverter/
           
       - name: Remove File pictureConverter
         uses: JesseTG/rm@v1.0.2
         with:
-          path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/pictureConverter
+          path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/pictureConverter/
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
