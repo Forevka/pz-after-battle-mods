@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Delete all unnecessary file
-        run: find . -type f \(-name '\*exe' -o -name '\*dll'  -o name '\*bat'\) -delete
+        run: find . -type f \(-name "\*.exe" -o -name "\*.dll"  -o name "\*.bat"\) -delete
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
