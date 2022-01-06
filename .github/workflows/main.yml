@@ -29,6 +29,9 @@ jobs:
         with:
           path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/
 
+      - name: list
+        run: ls
+
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
