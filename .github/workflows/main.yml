@@ -19,16 +19,27 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: toggle workflow command echoing
+        run: |
+          echo '::echo::on'
+          echo '::set-output name=action_echo::enabled'
+
+      - name: list
+        run: ls
+
       - name: Remove File audioConverter
         uses: JesseTG/rm@v1.0.2
         with:
           path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/audioConverter/
           
-          
+
       - name: Remove File pictureConverter
         uses: JesseTG/rm@v1.0.2
         with:
           path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/pictureConverter/convert.exe
+
+      - name: list
+        run: ls
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
