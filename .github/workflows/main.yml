@@ -36,7 +36,7 @@ jobs:
       - name: Remove File pictureConverter
         uses: JesseTG/rm@v1.0.2
         with:
-          path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/pictureConverter/convert.exe
+          path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/pictureConverter/
 
       - name: list
         run: tree
@@ -46,6 +46,6 @@ jobs:
         env:
           REPO: self
           BRANCH: build # The branch name where you want to push the assets
-          FOLDER: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods # The directory where your assets are generated
+          FOLDER: /. # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
           MESSAGE: "Build: ({sha}) {msg}" # The commit message
