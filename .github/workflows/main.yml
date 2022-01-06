@@ -38,6 +38,26 @@ jobs:
         with:
           path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/pictureConverter/
 
+      - name: Remove File AddYourMusicToTheMod.cs
+        uses: JesseTG/rm@v1.0.2
+        with:
+          path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/AddYourMusicToTheMod.cs
+
+      - name: Remove File AddYourMusicToTheMod.exe
+        uses: JesseTG/rm@v1.0.2
+        with:
+          path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/AddYourMusicToTheMod.exe
+          
+      - name: Remove File DeleteYourMusicFromTheMod.cs
+        uses: JesseTG/rm@v1.0.2
+        with:
+          path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/DeleteYourMusicFromTheMod.cs
+          
+      - name: Remove File DeleteYourMusicFromTheMod.exe
+        uses: JesseTG/rm@v1.0.2
+        with:
+          path: /home/runner/work/pz-after-battle-mods/pz-after-battle-mods/AfterBattleMusic/media/yourMusic/DeleteYourMusicFromTheMod.exe
+          
       - name: list
         run: tree
       
