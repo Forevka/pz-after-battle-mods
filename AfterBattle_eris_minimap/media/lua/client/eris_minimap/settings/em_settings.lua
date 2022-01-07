@@ -442,7 +442,7 @@ end
 ----------------------------------------------------------------------------------------------------
 
 function em_settings:load()
-	self:load_minimap_settings();
+	--self:load_minimap_settings();
 	self:load_color_settings();
 end
 
