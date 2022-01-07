@@ -1,5 +1,5 @@
-name=AfterBattle
+name=After Battle True Music Pack
 poster=poster.png
-id=AfterBattle
+id=AfterBattleTrueMusic
 require=truemusic
-description=AfterBattle
+description=After Battle Music Addon
