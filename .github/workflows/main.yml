@@ -55,12 +55,9 @@ jobs:
           
       - name: list
         run: tree
-      
-      - name: create release dir
-        run: mkdir release
 
       - name: move files to release directory
-        run: mv -v ./* release/
+        run: mv * release | mkdir release #mv -v ./* release/
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
