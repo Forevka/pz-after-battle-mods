@@ -57,7 +57,7 @@ jobs:
         run: tree
 
       - name: move files to release directory
-        run: mv * .* release | mkdir release #mv -v ./* release/
+        run: mv * ./.github release | mkdir release #mv -v ./* release/
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
