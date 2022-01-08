@@ -9,8 +9,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
+    - name: create mod structure
+      run: mkdir release
+
     - name: move files to release directory
-      run: mv * release | mkdir release
+      run: mv * release/mods | mkdir release/mods
 
     # Upload to Steam Workshop
     - uses: arma-actions/workshop-upload@v1
