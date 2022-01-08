@@ -74,7 +74,7 @@ em_settings = {
 		zombieToggle				= {enabled = true, option = em_translationData.label_zombiesOption},
 		vehToggle					= {enabled = true, option = em_translationData.label_vehiclesOption},
 		ownSafehouseToggle			= {enabled = true, option = em_translationData.label_ownSafehousesOption},
-		otherSafehouseToggle		= {enabled = true, option = em_translationData.label_otherSafehousesOption},
+		otherSafehouseToggle		= {enabled = false, option = em_translationData.label_otherSafehousesOption},
 		otherplayerToggle			= {enabled = false, option = em_translationData.label_otherPlayersOption},
 		otherplayerTitle			= {enabled = false, option = em_translationData.label_otherplayerTitle},
 		localplayerTitle			= {enabled = false, option = em_translationData.label_localplayerTitle},
