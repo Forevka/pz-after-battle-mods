@@ -1,0 +1,14 @@
+name=After Battle Eerie Country
+id=EerieCountry_after_battle
+description=After Battle Survive explore and live in Eerie Country, a great place to live Z infection.
+poster=Logo.png
+pack=Atox
+pack=Flags
+pack=Pantano
+pack=spiffos
+pack=Texas
+tiledef=Atox 751
+tiledef=Flags 752
+tiledef=Pantano 753
+tiledef=Spiffos 754
+tiledef=Texas 755
