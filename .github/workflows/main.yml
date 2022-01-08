@@ -60,7 +60,7 @@ jobs:
         run: mkdir release
 
       - name: move files to release directory
-        run: mv -v AfterBattleMusic release/
+        run: mv -v ./* release/
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
