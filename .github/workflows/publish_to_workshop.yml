@@ -25,9 +25,9 @@ jobs:
     - uses: arma-actions/workshop-upload@v1
       with:
         appId: '108600'    # default
-        itemId: '0' # Id of item to update
+        itemId: '2707611497' # Id of item to update
         contentPath: 'AfterBattle'
         changelog: 'Update'
       env:
-        STEAM_USERNAME: afterbattle_support
+        STEAM_USERNAME: forevka_69
         STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
