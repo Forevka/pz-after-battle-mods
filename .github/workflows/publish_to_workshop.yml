@@ -29,5 +29,5 @@ jobs:
         contentPath: 'AfterBattle'
         changelog: 'Update'
       env:
-        STEAM_USERNAME: forevka_69
+        STEAM_USERNAME: afterbattle_support
         STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
