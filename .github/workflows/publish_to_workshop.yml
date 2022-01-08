@@ -9,24 +9,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: create mod release dir
-      run: mkdir AfterBattle
-
-    - name: create mod release dir
-      run: mkdir AfterBattle/Contents
-    
-    - name: agree eula
-      run: echo steam steam/question select "I AGREE" | sudo debconf-set-selections
-
-    - name: agree note
-      run: echo steam steam/license note '' | sudo debconf-set-selections
+    - name: move files to release directory
+      run: mv * release | mkdir release
 
     # Upload to Steam Workshop
     - uses: arma-actions/workshop-upload@v1
       with:
         appId: '108600'    # default
         itemId: '2707611497' # Id of item to update
-        contentPath: 'AfterBattle'
+        contentPath: 'release'
         changelog: 'Update'
       env:
         STEAM_USERNAME: forevka_69
