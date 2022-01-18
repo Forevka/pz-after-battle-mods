@@ -1,4 +1,4 @@
-name=DylansSensibleZombieLoot
-id=DylansZombieLoot
+name=After Battle DylansSensibleZombieLoot
+id=DylansZombieLoot_after_battle
 poster=poster.png
 description=Makes zombies drop basic loot like other survival games.
