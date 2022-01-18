@@ -1,0 +1,95 @@
+module Admin
+{
+
+    item AdSuit
+    {
+        Type = Clothing,
+        DisplayName = AdminSuit,
+        ClothingItem = Suit_Chempak,
+        BodyLocation = Sweater,
+        Icon = Suit_Chempak,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 4,
+        ScratchDefense = 500,
+        BiteDefense = 500,
+        BulletDefense = 500,
+        Insulation = 1,
+        WindResistance = 0.85,
+        WaterResistance = 0.80,
+    }
+    item AdminDefender
+    {
+        Type = Clothing,
+        DisplayName = Defender 2 Admin,
+        ClothingItem = Armor_Defender,
+        BodyLocation = TorsoExtra,
+        Weight	=	1,
+        Icon	=	Armor_Defender,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 2,
+        CombatSpeedModifier = 2,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 500,
+        ScratchDefense = 500,
+        BulletDefense = 500,
+        NeckProtectionModifier = 10,
+    }
+item Shoes_AdminBoots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Admin Boots,
+		ClothingItem = Shoes_ArmyBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = BootsARmy,
+		StompPower = 10,
+		ConditionLowerChanceOneIn = 20,
+        ConditionMax = 30,
+        RunSpeedModifier = 2,
+        RemoveOnBroken = false,
+        BiteDefense = 500,
+        ScratchDefense = 500,
+        BulletDefense = 500,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 0.8,
+        WorldStaticModel = Boots_Ground,
+	}
+    item Scarf_Admin
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Admin Scarf,
+        ClothingItem = Scarf_StripeRedWhite,
+        BodyLocation = Scarf,
+        Icon = ScarfStripedRed,
+        Weight = 0.2,
+        BloodLocation = Neck,
+        BiteDefense = 500,
+        ScratchDefense = 500,
+        BulletDefense = 500,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Cotton,
+        WorldStaticModel = Scarf_Ground,
+    }
+	item Gloves_AdminGloves
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Admin Gloves,
+		ClothingItem = Gloves_LeatherGloves,
+		BodyLocation = Hands,
+		IconsForTexture = GlovesLeatherBlackpng;GlovesLeatherBrown,
+		BloodLocation = Hands,
+		ScratchDefense = 30,
+        BiteDefense = 15,
+        Weight = 0.1,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Leather,
+        WorldStaticModel = Gloves_Ground,
+	}
+}
